@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Barber Academy — интерактивная платформа обучения мужским стрижкам" />
+  <title>BARBER ACADEMY — Введение в профессию</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Barber Academy">
+      <span class="brand-mark">BA</span>
+      <span><strong>BARBER</strong><small>ACADEMY</small></span>
+    </a>
+    <div class="top-progress">
+      <span>Блок 01</span>
+      <div class="progress-track"><div class="progress-fill" id="topProgress"></div></div>
+      <strong id="progressText">0%</strong>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">БЛОК 01 · ОСНОВЫ</p>
+        <h1>ВВЕДЕНИЕ<br><span>В ПРОФЕССИЮ</span></h1>
+        <p class="hero-text">Первый шаг в мужских стрижках: рабочее место, инструменты, безопасность, постановка руки и профессиональное мышление мастера.</p>
+        <div class="hero-actions">
+          <a href="#lessons" class="btn btn-primary">Начать обучение <span>→</span></a>
+          <button class="btn btn-ghost" id="resetProgress">Сбросить прогресс</button>
+        </div>
+        <div class="stats">
+          <div><strong>7</strong><span>уроков</span></div>
+          <div><strong>35</strong><span>минут теории</span></div>
+          <div><strong>1</strong><span>мини‑тест</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="poster-card">
+          <span class="poster-number">01</span>
+          <div class="clipper-icon">✂</div>
+          <p>FOUNDATION<br>OF A BARBER</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="learning-layout" id="lessons">
+      <aside class="lesson-nav">
+        <p class="nav-title">Содержание блока</p>
+        <button class="lesson-link active" data-target="lesson1"><span>01</span> Кто такой современный барбер</button>
+        <button class="lesson-link" data-target="lesson2"><span>02</span> Рабочее место</button>
+        <button class="lesson-link" data-target="lesson3"><span>03</span> Инструменты мастера</button>
+        <button class="lesson-link" data-target="lesson4"><span>04</span> Машинка, триммер, шейвер</button>
+        <button class="lesson-link" data-target="lesson5"><span>05</span> Санитария и безопасность</button>
+        <button class="lesson-link" data-target="lesson6"><span>06</span> Постановка руки</button>
+        <button class="lesson-link" data-target="lesson7"><span>07</span> Профессиональный алгоритм</button>
+        <button class="lesson-link test-link" data-target="quiz"><span>✓</span> Проверка знаний</button>
+      </aside>
+
+      <div class="lesson-content">
+        <article class="lesson active" id="lesson1" data-lesson="1">
+          <div class="lesson-head"><span>Урок 01</span><button class="complete-btn">Отметить пройденным</button></div>
+          <h2>Кто такой современный барбер</h2>
+          <p class="lead">Барбер — это не человек, который просто «убирает длину». Это специалист, который управляет формой, пропорциями, текстурой волос и образом клиента.</p>
+          <div class="concept-grid">
+            <div class="concept-card"><b>01</b><h3>Техника</h3><p>Контроль машинки, ножниц, расчёски и направления среза.</p></div>
+            <div class="concept-card"><b>02</b><h3>Визуальное мышление</h3><p>Умение видеть форму головы, баланс и зоны веса.</p></div>
+            <div class="concept-card"><b>03</b><h3>Сервис</h3><p>Консультация, коммуникация, комфорт и доверие клиента.</p></div>
+          </div>
+          <div class="callout"><strong>Главная мысль</strong><p>Хороший мастер не копирует стрижку с картинки. Он понимает конструкцию и адаптирует её под конкретного человека.</p></div>
+        </article>
+
+        <article class="lesson" id="lesson2" data-lesson="2">
+          <div class="lesson-head"><span>Урок 02</span><button class="complete-btn">Отметить пройденным</button></div>
+          <h2>Рабочее место мастера</h2>
+          <p class="lead">Правильно организованная зона работы ускоряет стрижку, снижает усталость и помогает соблюдать чистоту.</p>
+          <div class="checklist">
+            <label><input type="checkbox"> Рабочая поверхность чистая и свободная</label>
+            <label><input type="checkbox"> Инструменты расположены в зоне быстрого доступа</label>
+            <label><input type="checkbox"> Есть отдельная зона для чистых и использованных инструментов</label>
+            <label><input type="checkbox"> Освещение равномерное, без сильных теней</label>
+            <label><input type="checkbox"> Кресло регулируется по высоте</label>
+            <label><input type="checkbox"> Провода не мешают передвижению мастера</label>
+          </div>
+          <div class="callout dark"><strong>Правило</strong><p>Мастер двигается вокруг клиента. Клиент не должен постоянно принимать неудобные положения ради мастера.</p></div>
+        </article>
+
+        <article class="lesson" id="lesson3" data-lesson="3">
+          <div class="lesson-head"><span>Урок 03</span><button class="complete-btn">Отметить пройденным</button></div>
+          <h2>Инструменты мастера</h2>
+          <div class="tool-tabs">
+            <button class="tool-tab active" data-tool="machine">Машинка</button>
+            <button class="tool-tab" data-tool="scissors">Ножницы</button>
+            <button class="tool-tab" data-tool="comb">Расчёски</button>
+            <button class="tool-tab" data-tool="dryer">Фен</button>
+          </div>
+          <div class="tool-panel active" id="machine"><h3>Машинка</h3><p>Основной инструмент для снятия массы, создания коротких форм и плавных переходов. Важно понимать работу ножевого блока, рычага и насадок.</p><ul><li>Работает большими зонами.</li><li>Требует плавного движения без давления.</li><li>Результат зависит не только от насадки, но и от угла подачи.</li></ul></div>
+          <div class="tool-panel" id="scissors"><h3>Прямые и филировочные ножницы</h3><p>Прямые ножницы формируют длину и форму. Филировочные помогают смягчать плотность и переходы, но не заменяют точную технику среза.</p></div>
+          <div class="tool-panel" id="comb"><h3>Расчёски</h3><p>Разные формы расчёсок используются для секционирования, контроля пряди, тушёвки и работы машинкой над расчёской.</p></div>
+          <div class="tool-panel" id="dryer"><h3>Фен</h3><p>Фен нужен не только для финальной укладки. С его помощью мастер видит естественное направление роста, объём и реальную форму стрижки.</p></div>
+        </article>
+
+        <article class="lesson" id="lesson4" data-lesson="4">
+          <div class="lesson-head"><span>Урок 04</span><button class="complete-btn">Отметить пройденным</button></div>
+          <h2>Машинка, триммер и шейвер</h2>
+          <div class="compare-table">
+            <div class="compare-row header"><span>Инструмент</span><span>Задача</span><span>Когда использовать</span></div>
+            <div class="compare-row"><strong>Машинка</strong><span>Снятие длины и переходы</span><span>Основная масса стрижки</span></div>
+            <div class="compare-row"><strong>Триммер</strong><span>Контуры и очень короткая длина</span><span>Окантовка, первая линия skin fade</span></div>
+            <div class="compare-row"><strong>Шейвер</strong><span>Срез максимально близко к коже</span><span>Чистая нижняя зона skin fade</span></div>
+          </div>
+          <div class="callout"><strong>Важно</strong><p>Не прижимай инструмент сильнее, чтобы он «лучше срезал». Избыточное давление раздражает кожу и ухудшает контроль движения.</p></div>
+        </article>
+
+        <article class="lesson" id="lesson5" data-lesson="5">
+          <div class="lesson-head"><span>Урок 05</span><button class="complete-btn">Отметить пройденным</button></div>
+          <h2>Санитария и безопасность</h2>
+          <p class="lead">Чистота — часть профессионального навыка, а не дополнительная опция.</p>
+          <div class="steps">
+            <div><span>01</span><p><strong>До клиента</strong><br>Чистая поверхность, подготовленный инструмент, чистый пеньюар.</p></div>
+            <div><span>02</span><p><strong>После клиента</strong><br>Удалить волосы и загрязнения, обработать рабочую поверхность и инструменты согласно требованиям используемых средств и местных норм.</p></div>
+            <div><span>03</span><p><strong>Кожа клиента</strong><br>Не работать повреждённым или загрязнённым инструментом. При подозрительных повреждениях кожи действовать осторожно и не проводить травмирующие процедуры.</p></div>
+          </div>
+        </article>
+
+        <article class="lesson" id="lesson6" data-lesson="6">
+          <div class="lesson-head"><span>Урок 06</span><button class="complete-btn">Отметить пройденным</button></div>
+          <h2>Постановка руки</h2>
+          <p class="lead">Контроль инструмента начинается с корпуса и кисти. Чем меньше лишнего напряжения, тем точнее движение.</p>
+          <div class="motion-demo">
+            <div class="motion-visual"><div class="machine-shape">▰</div><div class="motion-arrow">↗</div></div>
+            <div><h3>Движение «вышел из головы»</h3><p>В переходах машинка не должна идти строго вверх по поверхности головы до конца движения. В верхней точке мягко выводи нож от головы, создавая плавное увеличение длины.</p></div>
+          </div>
+          <div class="practice"><span>Практика 5 минут</span><p>Выключенной машинкой отработай одинаковое движение кисти 30 раз с каждой стороны воображаемой головы. Цель — одинаковая траектория без резких рывков.</p></div>
+        </article>
+
+        <article class="lesson" id="lesson7" data-lesson="7">
+          <div class="lesson-head"><span>Урок 07</span><button class="complete-btn">Отметить пройденным</button></div>
+          <h2>Профессиональный алгоритм</h2>
+          <p class="lead">До первого среза мастер уже должен понимать будущий результат.</p>
+          <div class="timeline">
+            <div><span>01</span><h3>Консультация</h3><p>Что клиент хочет и что ему не нравится сейчас?</p></div>
+            <div><span>02</span><h3>Диагностика</h3><p>Форма головы, густота, рост волос, вихры, проблемные зоны.</p></div>
+            <div><span>03</span><h3>План</h3><p>Определи длины, форму, зоны веса и последовательность работы.</p></div>
+            <div><span>04</span><h3>Стрижка</h3><p>Работай системно, постоянно проверяя симметрию.</p></div>
+            <div><span>05</span><h3>Финиш</h3><p>Высуши, проверь форму, доработай детали и покажи клиенту укладку.</p></div>
+          </div>
+        </article>
+
+        <article class="lesson quiz" id="quiz">
+          <div class="lesson-head"><span>Проверка знаний</span></div>
+          <h2>Закрепим первый блок</h2>
+          <form id="quizForm">
+            <fieldset><legend>1. Основная задача триммера?</legend><label><input type="radio" name="q1" value="a"> Сушка волос</label><label><input type="radio" name="q1" value="b"> Контуры и работа на очень короткой длине</label><label><input type="radio" name="q1" value="c"> Только филировка</label></fieldset>
+            <fieldset><legend>2. Что нужно сделать до первого среза?</legend><label><input type="radio" name="q2" value="a"> Сразу выбрать насадку</label><label><input type="radio" name="q2" value="b"> Начать с затылка</label><label><input type="radio" name="q2" value="c"> Провести консультацию и диагностику</label></fieldset>
+            <fieldset><legend>3. Что важнее при работе машинкой?</legend><label><input type="radio" name="q3" value="a"> Только номер насадки</label><label><input type="radio" name="q3" value="b"> Контроль движения, угла и давления</label><label><input type="radio" name="q3" value="c"> Максимально сильное давление</label></fieldset>
+            <button type="submit" class="btn btn-primary">Проверить ответы</button>
+          </form>
+          <div class="quiz-result" id="quizResult"></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer><strong>BARBER ACADEMY</strong><span>Блок 01 · Введение в профессию</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
