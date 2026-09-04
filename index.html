@@ -13,262 +13,45 @@
 <body>
   <div class="noise"></div>
   <header class="topbar">
-    <a class="brand" href="#top" aria-label="Barber Academy">
-      <span class="brand-mark">BA</span>
-      <span><strong>BARBER</strong><small>ACADEMY</small></span>
-    </a>
-    <div class="top-progress">
-      <span>Блок 01</span>
-      <div class="progress-track"><div class="progress-fill" id="topProgress"></div></div>
-      <strong id="progressText">0%</strong>
-    </div>
+    <a class="brand" href="#top" aria-label="Barber Academy"><span class="brand-mark">BA</span><span><strong>BARBER</strong><small>ACADEMY</small></span></a>
+    <div class="top-progress"><span>Блок 01</span><div class="progress-track"><div class="progress-fill" id="topProgress"></div></div><strong id="progressText">0%</strong></div>
   </header>
-
   <main id="top">
     <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">БЛОК 01 · ОСНОВЫ</p>
-        <h1>ВВЕДЕНИЕ<br><span>В ПРОФЕССИЮ</span></h1>
-        <p class="hero-text">Полноценное погружение в базу мужских стрижек: мышление мастера, рабочее место, инструменты, машинка, ножницы, санитария, эргономика и алгоритм обслуживания клиента.</p>
-        <div class="hero-actions">
-          <a href="#lessons" class="btn btn-primary">Начать обучение <span>→</span></a>
-          <button class="btn btn-ghost" id="resetProgress">Сбросить прогресс</button>
-        </div>
-        <div class="stats">
-          <div><strong>12</strong><span>уроков</span></div>
-          <div><strong>120</strong><span>минут обучения</span></div>
-          <div><strong>1</strong><span>финальный тест</span></div>
-        </div>
-      </div>
-      <div class="hero-visual" aria-hidden="true">
-        <div class="poster-card">
-          <span class="poster-number">01</span>
-          <div class="clipper-icon">✂</div>
-          <p>FOUNDATION<br>OF A BARBER</p>
-        </div>
-      </div>
+      <div class="hero-copy"><p class="eyebrow">БЛОК 01 · ОСНОВЫ</p><h1>ВВЕДЕНИЕ<br><span>В ПРОФЕССИЮ</span></h1><p class="hero-text">Полноценное погружение в базу мужских стрижек: мышление мастера, рабочее место, инструменты, машинка, ножницы, санитария, эргономика и алгоритм обслуживания клиента.</p><div class="hero-actions"><a href="#lessons" class="btn btn-primary">Начать обучение <span>→</span></a><button class="btn btn-ghost" id="resetProgress">Сбросить прогресс</button></div><div class="stats"><div><strong>12</strong><span>уроков</span></div><div><strong>120</strong><span>минут обучения</span></div><div><strong>1</strong><span>финальный тест</span></div></div></div>
+      <div class="hero-visual" aria-hidden="true"><div class="poster-card"><span class="poster-number">01</span><div class="clipper-icon">✂</div><p>FOUNDATION<br>OF A BARBER</p></div></div>
     </section>
-
     <section class="learning-layout" id="lessons">
-      <aside class="lesson-nav">
-        <p class="nav-title">Содержание блока</p>
-        <button class="lesson-link active" data-target="lesson1"><span>01</span> Профессия барбера</button>
-        <button class="lesson-link" data-target="lesson2"><span>02</span> Рабочее место</button>
-        <button class="lesson-link" data-target="lesson3"><span>03</span> Инструменты</button>
-        <button class="lesson-link" data-target="lesson4"><span>04</span> Машинка подробно</button>
-        <button class="lesson-link" data-target="lesson5"><span>05</span> Триммер и шейвер</button>
-        <button class="lesson-link" data-target="lesson6"><span>06</span> Ножницы</button>
-        <button class="lesson-link" data-target="lesson7"><span>07</span> Расчёски</button>
-        <button class="lesson-link" data-target="lesson8"><span>08</span> Фен и укладка</button>
-        <button class="lesson-link" data-target="lesson9"><span>09</span> Санитария</button>
-        <button class="lesson-link" data-target="lesson10"><span>10</span> Эргономика</button>
-        <button class="lesson-link" data-target="lesson11"><span>11</span> Алгоритм клиента</button>
-        <button class="lesson-link" data-target="lesson12"><span>12</span> Практическая база</button>
-        <button class="lesson-link test-link" data-target="quiz"><span>✓</span> Проверка знаний</button>
-      </aside>
-
+      <aside class="lesson-nav"><p class="nav-title">Содержание блока</p><button class="lesson-link active" data-target="lesson1"><span>01</span> Профессия барбера</button><button class="lesson-link" data-target="lesson2"><span>02</span> Рабочее место</button><button class="lesson-link" data-target="lesson3"><span>03</span> Инструменты</button><button class="lesson-link" data-target="lesson4"><span>04</span> Машинка подробно</button><button class="lesson-link" data-target="lesson5"><span>05</span> Триммер и шейвер</button><button class="lesson-link" data-target="lesson6"><span>06</span> Ножницы</button><button class="lesson-link" data-target="lesson7"><span>07</span> Расчёски</button><button class="lesson-link" data-target="lesson8"><span>08</span> Фен и укладка</button><button class="lesson-link" data-target="lesson9"><span>09</span> Санитария</button><button class="lesson-link" data-target="lesson10"><span>10</span> Эргономика</button><button class="lesson-link" data-target="lesson11"><span>11</span> Алгоритм клиента</button><button class="lesson-link" data-target="lesson12"><span>12</span> Практическая база</button><button class="lesson-link test-link" data-target="quiz"><span>✓</span> Проверка знаний</button></aside>
       <div class="lesson-content">
-        <article class="lesson active" id="lesson1" data-lesson="1">
-          <div class="lesson-head"><span>Урок 01</span><button class="complete-btn">Отметить пройденным</button></div>
-          <h2>Профессия барбера: как мыслит мастер</h2>
-          <p class="lead">Барбер управляет не просто длиной волос, а формой, балансом, плотностью, текстурой и визуальными пропорциями головы и лица.</p>
-          <div class="concept-grid">
-            <div class="concept-card"><b>01</b><h3>Техника</h3><p>Контроль машинки, ножниц, расчёски и угла работы.</p></div>
-            <div class="concept-card"><b>02</b><h3>Диагностика</h3><p>Форма головы, рост волос, вихры, густота и проблемные зоны.</p></div>
-            <div class="concept-card"><b>03</b><h3>Сервис</h3><p>Консультация, доверие, комфорт и понятное объяснение результата.</p></div>
-          </div>
-          <h3>Что отличает сильного мастера</h3>
-          <ul>
-            <li>Он понимает, почему выбирает конкретную технику.</li>
-            <li>Не копирует фото вслепую, а адаптирует форму под клиента.</li>
-            <li>Планирует последовательность работы до первого среза.</li>
-            <li>Проверяет баланс и симметрию на каждом этапе.</li>
-            <li>Умеет объяснить клиенту, что реально получится на его волосах.</li>
-          </ul>
-          <div class="callout"><strong>Запомни</strong><p>Стрижка — это конструкция. Название стрижки вторично. Сначала мастер работает с формой, длиной и распределением веса.</p></div>
-          <div class="callout dark"><strong>Ошибка новичка</strong><p>Сразу начинать стричь, не выяснив, что хочет клиент и как растут его волосы.</p></div>
-        </article>
-
-        <article class="lesson" id="lesson2" data-lesson="2">
-          <div class="lesson-head"><span>Урок 02</span><button class="complete-btn">Отметить пройденным</button></div>
-          <h2>Рабочее место мастера</h2>
-          <p class="lead">Организация рабочего пространства напрямую влияет на скорость, чистоту работы и физическую нагрузку.</p>
-          <h3>Что должно быть в зоне быстрого доступа</h3>
-          <div class="checklist">
-            <label><input type="checkbox"> Машинка, триммер, шейвер</label>
-            <label><input type="checkbox"> Ножницы и филировочные ножницы</label>
-            <label><input type="checkbox"> Расчёски разных типов</label>
-            <label><input type="checkbox"> Фен и щётка</label>
-            <label><input type="checkbox"> Распылитель с водой</label>
-            <label><input type="checkbox"> Средства для укладки</label>
-            <label><input type="checkbox"> Чистые полотенца и пеньюар</label>
-            <label><input type="checkbox"> Контейнер/зона для использованных инструментов</label>
-          </div>
-          <h3>Освещение</h3>
-          <p>Свет должен быть равномерным. Жёсткая тень может скрывать пятна в fade и нарушать визуальную оценку симметрии. Лучше работать при нейтральном фронтальном освещении с дополнительным общим светом.</p>
-          <h3>Высота клиента</h3>
-          <p>Регулируй кресло так, чтобы рабочая зона была примерно на уровне груди или чуть ниже. Если постоянно поднимать плечи или наклоняться, быстро появится перегрузка спины и кистей.</p>
-          <div class="callout"><strong>Совет мастера</strong><p>Организуй инструменты всегда в одном порядке. Через несколько недель рука начнёт находить их автоматически, и скорость работы вырастет.</p></div>
-        </article>
-
-        <article class="lesson" id="lesson3" data-lesson="3">
-          <div class="lesson-head"><span>Урок 03</span><button class="complete-btn">Отметить пройденным</button></div>
-          <h2>Инструменты барбера</h2>
-          <div class="tool-tabs">
-            <button class="tool-tab active" data-tool="machine">Машинка</button>
-            <button class="tool-tab" data-tool="trimmer">Триммер</button>
-            <button class="tool-tab" data-tool="shaver">Шейвер</button>
-            <button class="tool-tab" data-tool="scissors">Ножницы</button>
-            <button class="tool-tab" data-tool="comb">Расчёски</button>
-            <button class="tool-tab" data-tool="dryer">Фен</button>
-          </div>
-          <div class="tool-panel active" id="machine"><h3>Машинка</h3><p>Главный инструмент для снятия массы и построения переходов. Работает широкими зонами, позволяет контролировать длину через ножевой блок, рычаг и насадки.</p></div>
-          <div class="tool-panel" id="trimmer"><h3>Триммер</h3><p>Инструмент для точной окантовки, деталей и очень короткой длины. Используется при построении нижней линии skin fade и для оформления контуров.</p></div>
-          <div class="tool-panel" id="shaver"><h3>Шейвер</h3><p>Снимает волос максимально близко к коже. Работает только по очень короткой щетине и не заменяет триммер или машинку.</p></div>
-          <div class="tool-panel" id="scissors"><h3>Ножницы</h3><p>Формируют длину, силуэт и текстуру. Прямые ножницы создают форму, филировочные снимают часть плотности и помогают смягчать переходы.</p></div>
-          <div class="tool-panel" id="comb"><h3>Расчёски</h3><p>Нужны для контроля пряди, секционирования, тушёвки и создания плоскости при техниках scissors over comb и clipper over comb.</p></div>
-          <div class="tool-panel" id="dryer"><h3>Фен</h3><p>Показывает естественный рост волос, помогает сформировать объём и направление, а также выявить недоработки в готовой форме.</p></div>
-          <div class="callout dark"><strong>Ошибка новичка</strong><p>Пытаться одним инструментом выполнять все задачи. Каждый инструмент создан под определённый диапазон длины и точность работы.</p></div>
-        </article>
-
-        <article class="lesson" id="lesson4" data-lesson="4">
-          <div class="lesson-head"><span>Урок 04</span><button class="complete-btn">Отметить пройденным</button></div>
-          <h2>Машинка подробно</h2>
-          <p class="lead">Чтобы делать чистые переходы, нужно понимать не только номера насадок, но и механику самой машинки.</p>
-          <div class="concept-grid">
-            <div class="concept-card"><b>A</b><h3>Закрытый нож</h3><p>Минимальная длина ножевого блока без насадки. Используется для очень короткой зоны и работы с нижними линиями.</p></div>
-            <div class="concept-card"><b>B</b><h3>Открытый нож</h3><p>Рычаг увеличивает расстояние между ножами и оставляет больше длины. Это промежуточная ступень между закрытым ножом и насадкой.</p></div>
-            <div class="concept-card"><b>C</b><h3>Насадки</h3><p>Задают диапазон длины, но итог зависит ещё и от положения рычага, угла подачи и давления.</p></div>
-          </div>
-          <h3>Как двигать машинку</h3>
-          <p>В коротких переходах машинка идёт по форме головы, но в верхней точке движения мягко выходит от поверхности. Такое движение помогает не создать новую жёсткую линию.</p>
-          <div class="motion-demo"><div class="motion-visual"><div class="machine-shape">▰</div><div class="motion-arrow">↗</div></div><div><h3>Движение «выйти из головы»</h3><p>Не продолжай движение строго вертикально по черепу. В верхней точке мягко отведи нож от головы кистью.</p></div></div>
-          <h3>Частые причины пятен</h3>
-          <ul><li>Сильное давление.</li><li>Слишком маленькая зона растяжки.</li><li>Пропуск промежуточной длины.</li><li>Работа всей плоскостью ножа там, где нужен угол.</li><li>Плохое освещение.</li></ul>
-          <div class="practice"><span>Практика</span><p>На выключенной машинке 30 раз отработай одинаковое движение кистью справа и слева. Затем включи машинку и попробуй на манекене снять одну линию без создания новой.</p></div>
-        </article>
-
-        <article class="lesson" id="lesson5" data-lesson="5">
-          <div class="lesson-head"><span>Урок 05</span><button class="complete-btn">Отметить пройденным</button></div>
-          <h2>Триммер и шейвер</h2>
-          <div class="compare-table">
-            <div class="compare-row header"><span>Инструмент</span><span>Основная задача</span><span>Ключевой момент</span></div>
-            <div class="compare-row"><strong>Триммер</strong><span>Контур и очень короткая длина</span><span>Работает точечно и точно</span></div>
-            <div class="compare-row"><strong>Шейвер</strong><span>Срез почти в ноль</span><span>Только по короткой щетине</span></div>
-          </div>
-          <h3>Окантовка</h3><p>Контур должен подчёркивать форму, а не искусственно менять её до неестественного вида. Особенно аккуратно работай в височной зоне и по фронтальной линии.</p>
-          <h3>Skin fade</h3><p>Шейвер не должен заходить слишком высоко. Нижняя зона должна быть чистой, но переход в триммерную длину нужно оставить контролируемым и плавным.</p>
-          <div class="callout"><strong>Запомни</strong><p>Шейвер не любит длинный волос. Сначала укороти зону триммером, только потом работай шейвером.</p></div>
-        </article>
-
-        <article class="lesson" id="lesson6" data-lesson="6">
-          <div class="lesson-head"><span>Урок 06</span><button class="complete-btn">Отметить пройденным</button></div>
-          <h2>Ножницы: постановка руки и базовые срезы</h2>
-          <h3>Положение пальцев</h3>
-          <p>Безымянный палец находится в одном кольце, большой — во втором. Остальные пальцы стабилизируют ножницы. Работает в основном большой палец, а не вся кисть.</p>
-          <h3>Почему это важно</h3><p>Если открывать ножницы всей рукой, линия среза становится нестабильной, появляется лишнее напряжение и снижается скорость.</p>
-          <h3>Базовые техники</h3>
-          <ul><li><strong>Прямой срез</strong> — чёткая линия и контроль длины.</li><li><strong>Point cut</strong> — смягчение линии и добавление текстуры.</li><li><strong>Slicing</strong> — скользящее движение для уменьшения плотности.</li><li><strong>Филировка</strong> — частичное удаление массы специальными ножницами.</li></ul>
-          <div class="callout dark"><strong>Ошибка новичка</strong><p>Филировать волосы «на всякий случай». Сначала пойми, где именно находится лишний вес и зачем его нужно убрать.</p></div>
-        </article>
-
-        <article class="lesson" id="lesson7" data-lesson="7">
-          <div class="lesson-head"><span>Урок 07</span><button class="complete-btn">Отметить пройденным</button></div>
-          <h2>Расчёски и контроль формы</h2>
-          <p class="lead">Расчёска — это не просто аксессуар. Она создаёт рабочую плоскость и помогает контролировать длину.</p>
-          <ul>
-            <li><strong>Классическая расчёска</strong> — секционирование и работа с прядями.</li>
-            <li><strong>Fade comb</strong> — короткая плоская расчёска для тушёвки.</li>
-            <li><strong>Широкая расчёска</strong> — густые и длинные волосы.</li>
-            <li><strong>Брашинг</strong> — работа с феном и объёмом.</li>
-          </ul>
-          <div class="practice"><span>Практика</span><p>Поставь расчёску вертикально у виска и потренируйся создавать стабильную плоскость, по которой могла бы двигаться машинка или ножницы.</p></div>
-        </article>
-
-        <article class="lesson" id="lesson8" data-lesson="8">
-          <div class="lesson-head"><span>Урок 08</span><button class="complete-btn">Отметить пройденным</button></div>
-          <h2>Фен и укладка</h2>
-          <h3>Фен как диагностический инструмент</h3><p>После сушки становится видно реальное направление роста волос, плотность, торчащие участки и недоработки формы.</p>
-          <h3>Основные принципы</h3>
-          <ul><li>Направляй воздух по форме будущей укладки.</li><li>Не держи горячий поток долго в одной точке.</li><li>Для объёма поднимай корень расчёской или брашингом.</li><li>Для гладкости направляй поток сверху вниз по волосу.</li></ul>
-          <div class="callout"><strong>Совет мастера</strong><p>Всегда проверяй стрижку после укладки. Иногда визуальная ошибка становится заметна только на сухих волосах.</p></div>
-        </article>
-
-        <article class="lesson" id="lesson9" data-lesson="9">
-          <div class="lesson-head"><span>Урок 09</span><button class="complete-btn">Отметить пройденным</button></div>
-          <h2>Санитария и безопасность</h2>
-          <p class="lead">Чистота — обязательная часть профессионального процесса.</p>
-          <div class="steps">
-            <div><span>01</span><p><strong>До клиента</strong><br>Чистые инструменты, обработанная поверхность, подготовленный пеньюар и расходники.</p></div>
-            <div><span>02</span><p><strong>После клиента</strong><br>Удалить волосы и видимые загрязнения, обработать рабочую поверхность и инструменты согласно инструкции средства и действующим требованиям.</p></div>
-            <div><span>03</span><p><strong>Хранение</strong><br>Чистые и использованные инструменты должны храниться раздельно.</p></div>
-            <div><span>04</span><p><strong>Кожа</strong><br>Не работай повреждённым, загрязнённым или раздражающим кожу инструментом.</p></div>
-          </div>
-          <div class="callout dark"><strong>Важно</strong><p>Конкретные режимы дезинфекции зависят от выбранного средства и местных санитарных требований. Всегда следуй инструкции производителя.</p></div>
-        </article>
-
-        <article class="lesson" id="lesson10" data-lesson="10">
-          <div class="lesson-head"><span>Урок 10</span><button class="complete-btn">Отметить пройденным</button></div>
-          <h2>Эргономика и постановка корпуса</h2>
-          <p class="lead">Барбер работает много часов подряд. Неправильная стойка быстро приводит к усталости и снижению точности.</p>
-          <ul><li>Не поднимай плечо при работе машинкой.</li><li>Не выгибай кисть постоянно под острым углом.</li><li>Меняй положение вокруг клиента, а не тянись через него.</li><li>Регулируй кресло под рабочую зону.</li><li>Сохраняй нейтральное положение спины.</li></ul>
-          <div class="practice"><span>Практика</span><p>Встань перед манекеном и проверь три точки: плечи расслаблены, локти не подняты, спина не округлена. Повтори это перед каждой тренировкой.</p></div>
-        </article>
-
-        <article class="lesson" id="lesson11" data-lesson="11">
-          <div class="lesson-head"><span>Урок 11</span><button class="complete-btn">Отметить пройденным</button></div>
-          <h2>Алгоритм работы с клиентом</h2>
-          <div class="timeline">
-            <div><span>01</span><h3>Консультация</h3><p>Что клиент хочет? Что не нравится в текущей стрижке?</p></div>
-            <div><span>02</span><h3>Диагностика</h3><p>Рост волос, вихры, густота, форма головы и лица.</p></div>
-            <div><span>03</span><h3>План</h3><p>Определи длину, форму, зоны веса и порядок работы.</p></div>
-            <div><span>04</span><h3>Выполнение</h3><p>Работай по зонам и регулярно проверяй баланс.</p></div>
-            <div><span>05</span><h3>Cross-check</h3><p>Проверяй форму в другом направлении и с разных ракурсов.</p></div>
-            <div><span>06</span><h3>Финиш</h3><p>Высуши, уложи, доработай детали и объясни клиенту домашнюю укладку.</p></div>
-          </div>
-          <h3>Вопросы на консультации</h3>
-          <ul><li>Как обычно стрижётесь?</li><li>Что хотите изменить?</li><li>Насколько коротко можно сделать виски?</li><li>Сколько длины оставить сверху?</li><li>Укладываете волосы дома?</li></ul>
-        </article>
-
-        <article class="lesson" id="lesson12" data-lesson="12">
-          <div class="lesson-head"><span>Урок 12</span><button class="complete-btn">Отметить пройденным</button></div>
-          <h2>Практическая база перед первой моделью</h2>
-          <p class="lead">Перед полноценной стрижкой ученик должен уверенно выполнить простые движения отдельно.</p>
-          <div class="checklist">
-            <label><input type="checkbox"> 30 одинаковых движений машинкой правой рукой</label>
-            <label><input type="checkbox"> 30 движений на противоположной стороне головы</label>
-            <label><input type="checkbox"> Открыть и закрыть ножницы 50 раз только большим пальцем</label>
-            <label><input type="checkbox"> Создать расчёской ровную вертикальную плоскость у виска</label>
-            <label><input type="checkbox"> Сделать чистую линию триммером на учебной зоне</label>
-            <label><input type="checkbox"> Высушить верхнюю зону в заданном направлении</label>
-          </div>
-          <div class="callout"><strong>Готовность к модели</strong><p>Если базовое движение ещё нестабильно, не ускоряйся. Сначала добейся повторяемости, затем переходи к скорости.</p></div>
-        </article>
-
-        <article class="lesson" id="quiz">
-          <div class="lesson-head"><span>Финал блока</span></div>
-          <h2>Проверка знаний</h2>
-          <p class="lead">Ответь минимум на 8 из 10 вопросов правильно.</p>
-          <form id="quizForm" class="quiz-form">
-            <fieldset><legend>1. Что должен сделать мастер до первого среза?</legend><label><input type="radio" name="q1" value="a"> Выбрать самую короткую насадку</label><label><input type="radio" name="q1" value="b"> Провести консультацию и диагностику</label><label><input type="radio" name="q1" value="c"> Сразу начать с виска</label></fieldset>
-            <fieldset><legend>2. Зачем в fade машинку мягко выводят от головы?</legend><label><input type="radio" name="q2" value="a"> Чтобы не создать новую жёсткую линию</label><label><input type="radio" name="q2" value="b"> Чтобы машинка быстрее работала</label><label><input type="radio" name="q2" value="c"> Чтобы охладить нож</label></fieldset>
-            <fieldset><legend>3. Какой инструмент отвечает за максимально короткий срез по щетине?</legend><label><input type="radio" name="q3" value="a"> Фен</label><label><input type="radio" name="q3" value="b"> Шейвер</label><label><input type="radio" name="q3" value="c"> Брашинг</label></fieldset>
-            <fieldset><legend>4. Что в основном двигается при правильной работе ножницами?</legend><label><input type="radio" name="q4" value="a"> Большой палец</label><label><input type="radio" name="q4" value="b"> Вся кисть</label><label><input type="radio" name="q4" value="c"> Локоть</label></fieldset>
-            <fieldset><legend>5. Для чего нужен cross-check?</legend><label><input type="radio" name="q5" value="a"> Для проверки формы в другом направлении</label><label><input type="radio" name="q5" value="b"> Для дезинфекции</label><label><input type="radio" name="q5" value="c"> Для выбора насадки</label></fieldset>
-            <fieldset><legend>6. Что нельзя делать шейвером?</legend><label><input type="radio" name="q6" value="a"> Работать по очень короткой щетине</label><label><input type="radio" name="q6" value="b"> Заходить сразу на длинный волос</label><label><input type="radio" name="q6" value="c"> Работать в нижней зоне skin fade</label></fieldset>
-            <fieldset><legend>7. Что показывает открытый рычаг машинки?</legend><label><input type="radio" name="q7" value="a"> Увеличенную длину относительно закрытого ножа</label><label><input type="radio" name="q7" value="b"> Максимальную мощность мотора</label><label><input type="radio" name="q7" value="c"> Уровень заряда</label></fieldset>
-            <fieldset><legend>8. Зачем нужен фен до финальной проверки?</legend><label><input type="radio" name="q8" value="a"> Только чтобы высушить волосы</label><label><input type="radio" name="q8" value="b"> Чтобы увидеть реальную форму и направление роста</label><label><input type="radio" name="q8" value="c"> Чтобы машинка не перегревалась</label></fieldset>
-            <fieldset><legend>9. Что важнее при организации рабочего места?</legend><label><input type="radio" name="q9" value="a"> Красивый декор</label><label><input type="radio" name="q9" value="b"> Логичное расположение, чистота и доступность инструментов</label><label><input type="radio" name="q9" value="c"> Максимально низкое кресло</label></fieldset>
-            <fieldset><legend>10. Когда использовать филировку?</legend><label><input type="radio" name="q10" value="a"> Всегда в конце стрижки</label><label><input type="radio" name="q10" value="b"> Когда понимаешь, где и зачем нужно убрать лишнюю плотность</label><label><input type="radio" name="q10" value="c"> Вместо прямых ножниц</label></fieldset>
-            <button type="submit" class="btn btn-primary">Проверить результат</button>
-          </form>
-          <div id="quizResult" class="quiz-result"></div>
-        </article>
+        <article class="lesson active" id="lesson1" data-lesson="1"><div class="lesson-head"><span>Урок 01</span><button class="complete-btn">Отметить пройденным</button></div><h2>Профессия барбера: как мыслит мастер</h2><p class="lead">Барбер управляет не просто длиной волос, а формой, балансом, плотностью, текстурой и визуальными пропорциями головы и лица.</p><div class="concept-grid"><div class="concept-card"><b>01</b><h3>Техника</h3><p>Контроль машинки, ножниц, расчёски и угла работы.</p></div><div class="concept-card"><b>02</b><h3>Диагностика</h3><p>Форма головы, рост волос, вихры, густота и проблемные зоны.</p></div><div class="concept-card"><b>03</b><h3>Сервис</h3><p>Консультация, доверие, комфорт и понятное объяснение результата.</p></div></div><h3>Что отличает сильного мастера</h3><ul><li>Он понимает, почему выбирает конкретную технику.</li><li>Не копирует фото вслепую, а адаптирует форму под клиента.</li><li>Планирует последовательность работы до первого среза.</li><li>Проверяет баланс и симметрию на каждом этапе.</li><li>Умеет объяснить клиенту, что реально получится на его волосах.</li></ul><div class="callout"><strong>Запомни</strong><p>Стрижка — это конструкция. Название стрижки вторично. Сначала мастер работает с формой, длиной и распределением веса.</p></div><div class="callout dark"><strong>Ошибка новичка</strong><p>Сразу начинать стричь, не выяснив, что хочет клиент и как растут его волосы.</p></div></article>
+        <article class="lesson" id="lesson2" data-lesson="2"><div class="lesson-head"><span>Урок 02</span><button class="complete-btn">Отметить пройденным</button></div><h2>Рабочее место мастера</h2><p class="lead">Организация пространства напрямую влияет на скорость, чистоту работы и физическую нагрузку.</p><div class="checklist"><label><input type="checkbox"> Машинка, триммер, шейвер</label><label><input type="checkbox"> Ножницы и филировочные ножницы</label><label><input type="checkbox"> Расчёски разных типов</label><label><input type="checkbox"> Фен и щётка</label><label><input type="checkbox"> Распылитель</label><label><input type="checkbox"> Средства для укладки</label><label><input type="checkbox"> Чистые полотенца и пеньюар</label><label><input type="checkbox"> Отдельная зона использованных инструментов</label></div><h3>Освещение</h3><p>Свет должен быть равномерным: жёсткие тени скрывают пятна и мешают оценивать симметрию. Лучше нейтральный фронтальный свет плюс общее освещение.</p><h3>Высота клиента</h3><p>Рабочая зона должна находиться примерно на уровне груди или чуть ниже. Регулируй кресло, а не работай с постоянно поднятыми плечами или согнутой спиной.</p><div class="callout"><strong>Совет мастера</strong><p>Храни инструменты всегда в одном порядке: со временем рука будет находить их автоматически.</p></div></article>
+        <article class="lesson" id="lesson3" data-lesson="3"><div class="lesson-head"><span>Урок 03</span><button class="complete-btn">Отметить пройденным</button></div><h2>Инструменты барбера</h2><div class="tool-tabs"><button class="tool-tab active" data-tool="machine">Машинка</button><button class="tool-tab" data-tool="trimmer">Триммер</button><button class="tool-tab" data-tool="shaver">Шейвер</button><button class="tool-tab" data-tool="scissors">Ножницы</button><button class="tool-tab" data-tool="comb">Расчёски</button><button class="tool-tab" data-tool="dryer">Фен</button></div><div class="tool-panel active" id="machine"><h3>Машинка</h3><p>Главный инструмент для снятия массы и построения переходов. Длина контролируется ножевым блоком, рычагом и насадками.</p></div><div class="tool-panel" id="trimmer"><h3>Триммер</h3><p>Нужен для точной окантовки, деталей и очень короткой длины.</p></div><div class="tool-panel" id="shaver"><h3>Шейвер</h3><p>Снимает волос максимально близко к коже и применяется по очень короткой щетине.</p></div><div class="tool-panel" id="scissors"><h3>Ножницы</h3><p>Формируют длину, силуэт и текстуру. Филировочные ножницы снимают часть плотности.</p></div><div class="tool-panel" id="comb"><h3>Расчёски</h3><p>Помогают контролировать прядь, секционирование, тушёвку и рабочую плоскость.</p></div><div class="tool-panel" id="dryer"><h3>Фен</h3><p>Показывает естественный рост волос, помогает сформировать объём и выявить недоработки.</p></div><div class="callout dark"><strong>Ошибка новичка</strong><p>Пытаться одним инструментом выполнять все задачи.</p></div></article>
+        <article class="lesson" id="lesson4" data-lesson="4"><div class="lesson-head"><span>Урок 04</span><button class="complete-btn">Отметить пройденным</button></div><h2>Машинка подробно</h2><p class="lead">Для чистого перехода важно понимать механику машинки, а не просто запоминать номера насадок.</p><div class="concept-grid"><div class="concept-card"><b>A</b><h3>Закрытый нож</h3><p>Минимальная длина ножевого блока без насадки.</p></div><div class="concept-card"><b>B</b><h3>Открытый нож</h3><p>Рычаг увеличивает длину и создаёт промежуточную ступень.</p></div><div class="concept-card"><b>C</b><h3>Насадки</h3><p>Задают диапазон длины, но результат зависит ещё от угла и давления.</p></div></div><div class="motion-demo"><div class="motion-visual"><div class="machine-shape">▰</div><div class="motion-arrow">↗</div></div><div><h3>Движение «выйти из головы»</h3><p>В верхней точке мягко отводи нож от поверхности, чтобы не создавать новую жёсткую линию.</p></div></div><h3>Причины пятен</h3><ul><li>Сильное давление.</li><li>Слишком маленькая зона растяжки.</li><li>Пропуск промежуточной длины.</li><li>Неправильный угол ножа.</li><li>Плохое освещение.</li></ul><div class="practice"><span>Практика</span><p>На выключенной машинке 30 раз отработай одинаковое движение кистью с каждой стороны.</p></div></article>
+        <article class="lesson" id="lesson5" data-lesson="5"><div class="lesson-head"><span>Урок 05</span><button class="complete-btn">Отметить пройденным</button></div><h2>Триммер и шейвер</h2><div class="compare-table"><div class="compare-row header"><span>Инструмент</span><span>Задача</span><span>Принцип</span></div><div class="compare-row"><strong>Триммер</strong><span>Контур и короткая длина</span><span>Точечная работа</span></div><div class="compare-row"><strong>Шейвер</strong><span>Срез почти в ноль</span><span>Работа по короткой щетине</span></div></div><h3>Окантовка</h3><p>Контур должен подчёркивать естественную форму, а не искусственно менять её.</p><h3>Skin fade</h3><p>Шейвер не должен заходить слишком высоко: переход из чистой кожи в триммерную длину должен оставаться контролируемым.</p><div class="callout"><strong>Запомни</strong><p>Сначала укороти волос триммером, потом работай шейвером.</p></div></article>
+        <article class="lesson" id="lesson6" data-lesson="6"><div class="lesson-head"><span>Урок 06</span><button class="complete-btn">Отметить пройденным</button></div><h2>Ножницы: постановка руки и базовые срезы</h2><p>Безымянный палец находится в одном кольце, большой — во втором. Остальные пальцы стабилизируют инструмент. Работает преимущественно большой палец.</p><h3>Базовые техники</h3><ul><li><strong>Прямой срез</strong> — контроль длины и чёткая линия.</li><li><strong>Point cut</strong> — смягчение линии и текстура.</li><li><strong>Slicing</strong> — уменьшение плотности скользящим движением.</li><li><strong>Филировка</strong> — частичное удаление массы.</li></ul><div class="callout dark"><strong>Ошибка новичка</strong><p>Филировать волосы без понимания, где находится лишний вес.</p></div></article>
+        <article class="lesson" id="lesson7" data-lesson="7"><div class="lesson-head"><span>Урок 07</span><button class="complete-btn">Отметить пройденным</button></div><h2>Расчёски и контроль формы</h2><ul><li><strong>Классическая</strong> — секционирование и пряди.</li><li><strong>Fade comb</strong> — тушёвка коротких зон.</li><li><strong>Широкая</strong> — густые и длинные волосы.</li><li><strong>Брашинг</strong> — работа феном и создание объёма.</li></ul><div class="practice"><span>Практика</span><p>Поставь расчёску вертикально у виска и научись удерживать стабильную рабочую плоскость.</p></div></article>
+        <article class="lesson" id="lesson8" data-lesson="8"><div class="lesson-head"><span>Урок 08</span><button class="complete-btn">Отметить пройденным</button></div><h2>Фен и укладка</h2><p class="lead">После сушки становятся видны реальное направление роста, плотность и недоработки формы.</p><ul><li>Направляй воздух по форме будущей укладки.</li><li>Не держи горячий поток долго в одной точке.</li><li>Для объёма поднимай корень.</li><li>Для гладкости направляй поток сверху вниз.</li></ul><div class="callout"><strong>Совет мастера</strong><p>Всегда проверяй стрижку после укладки.</p></div></article>
+        <article class="lesson" id="lesson9" data-lesson="9"><div class="lesson-head"><span>Урок 09</span><button class="complete-btn">Отметить пройденным</button></div><h2>Санитария и безопасность</h2><div class="steps"><div><span>01</span><p><strong>До клиента</strong><br>Подготовь чистые инструменты и поверхность.</p></div><div><span>02</span><p><strong>После клиента</strong><br>Удаляй волосы и загрязнения, обрабатывай поверхность и инструменты.</p></div><div><span>03</span><p><strong>Хранение</strong><br>Чистые и использованные инструменты хранятся раздельно.</p></div><div><span>04</span><p><strong>Кожа</strong><br>Не используй повреждённый или загрязнённый инструмент.</p></div></div><div class="callout dark"><strong>Важно</strong><p>Режимы дезинфекции зависят от средства и местных требований; следуй инструкции производителя.</p></div></article>
+        <article class="lesson" id="lesson10" data-lesson="10"><div class="lesson-head"><span>Урок 10</span><button class="complete-btn">Отметить пройденным</button></div><h2>Эргономика и постановка корпуса</h2><ul><li>Не поднимай плечо при работе машинкой.</li><li>Не держи кисть постоянно под острым углом.</li><li>Двигайся вокруг клиента, а не тянись через него.</li><li>Регулируй кресло под рабочую зону.</li><li>Сохраняй нейтральное положение спины.</li></ul><div class="practice"><span>Практика</span><p>Перед тренировкой проверь: плечи расслаблены, локти не подняты, спина не округлена.</p></div></article>
+        <article class="lesson" id="lesson11" data-lesson="11"><div class="lesson-head"><span>Урок 11</span><button class="complete-btn">Отметить пройденным</button></div><h2>Алгоритм работы с клиентом</h2><div class="timeline"><div><span>01</span><h3>Консультация</h3><p>Что клиент хочет и что не нравится сейчас?</p></div><div><span>02</span><h3>Диагностика</h3><p>Рост, вихры, густота, форма головы и лица.</p></div><div><span>03</span><h3>План</h3><p>Длина, форма, зоны веса и порядок работы.</p></div><div><span>04</span><h3>Выполнение</h3><p>Работа по зонам и постоянная проверка баланса.</p></div><div><span>05</span><h3>Cross-check</h3><p>Проверка формы в другом направлении.</p></div><div><span>06</span><h3>Финиш</h3><p>Сушка, укладка, доработка и рекомендации клиенту.</p></div></div><h3>Вопросы клиенту</h3><ul><li>Как обычно стрижётесь?</li><li>Что хотите изменить?</li><li>Насколько коротко можно сделать виски?</li><li>Сколько длины оставить сверху?</li><li>Укладываете волосы дома?</li></ul></article>
+        <article class="lesson" id="lesson12" data-lesson="12"><div class="lesson-head"><span>Урок 12</span><button class="complete-btn">Отметить пройденным</button></div><h2>Практическая база перед первой моделью</h2><div class="checklist"><label><input type="checkbox"> 30 движений машинкой на одной стороне</label><label><input type="checkbox"> 30 движений на противоположной стороне</label><label><input type="checkbox"> Открыть и закрыть ножницы 50 раз только большим пальцем</label><label><input type="checkbox"> Создать расчёской ровную рабочую плоскость</label><label><input type="checkbox"> Сделать чистую линию триммером</label><label><input type="checkbox"> Высушить верхнюю зону в заданном направлении</label></div><div class="callout"><strong>Готовность к модели</strong><p>Сначала добейся повторяемости движения, затем увеличивай скорость.</p></div></article>
+        <article class="lesson" id="quiz"><div class="lesson-head"><span>Финал блока</span></div><h2>Проверка знаний</h2><p class="lead">Ответь минимум на 8 из 10 вопросов правильно.</p><form id="quizForm" class="quiz-form">
+          <fieldset><legend>1. Что нужно сделать до первого среза?</legend><label><input type="radio" name="q1" value="a"> Выбрать короткую насадку</label><label><input type="radio" name="q1" value="b"> Провести консультацию и диагностику</label><label><input type="radio" name="q1" value="c"> Начать с виска</label></fieldset>
+          <fieldset><legend>2. Зачем машинку выводят от головы?</legend><label><input type="radio" name="q2" value="a"> Чтобы не создать новую линию</label><label><input type="radio" name="q2" value="b"> Для скорости</label><label><input type="radio" name="q2" value="c"> Для охлаждения</label></fieldset>
+          <fieldset><legend>3. Что срезает максимально близко к коже?</legend><label><input type="radio" name="q3" value="a"> Фен</label><label><input type="radio" name="q3" value="b"> Шейвер</label><label><input type="radio" name="q3" value="c"> Брашинг</label></fieldset>
+          <fieldset><legend>4. Что в основном двигается при работе ножницами?</legend><label><input type="radio" name="q4" value="a"> Большой палец</label><label><input type="radio" name="q4" value="b"> Вся кисть</label><label><input type="radio" name="q4" value="c"> Локоть</label></fieldset>
+          <fieldset><legend>5. Для чего нужен cross-check?</legend><label><input type="radio" name="q5" value="a"> Для проверки формы</label><label><input type="radio" name="q5" value="b"> Для дезинфекции</label><label><input type="radio" name="q5" value="c"> Для выбора насадки</label></fieldset>
+          <fieldset><legend>6. Что нельзя делать шейвером?</legend><label><input type="radio" name="q6" value="a"> Работать по короткой щетине</label><label><input type="radio" name="q6" value="b"> Сразу заходить на длинный волос</label><label><input type="radio" name="q6" value="c"> Работать в skin fade</label></fieldset>
+          <fieldset><legend>7. Что делает открытый рычаг?</legend><label><input type="radio" name="q7" value="a"> Увеличивает оставляемую длину</label><label><input type="radio" name="q7" value="b"> Увеличивает мощность</label><label><input type="radio" name="q7" value="c"> Показывает заряд</label></fieldset>
+          <fieldset><legend>8. Зачем фен перед проверкой результата?</legend><label><input type="radio" name="q8" value="a"> Только высушить</label><label><input type="radio" name="q8" value="b"> Увидеть реальную форму и рост</label><label><input type="radio" name="q8" value="c"> Охладить машинку</label></fieldset>
+          <fieldset><legend>9. Главное в организации рабочего места?</legend><label><input type="radio" name="q9" value="a"> Декор</label><label><input type="radio" name="q9" value="b"> Чистота, логика и доступность</label><label><input type="radio" name="q9" value="c"> Низкое кресло</label></fieldset>
+          <fieldset><legend>10. Когда использовать филировку?</legend><label><input type="radio" name="q10" value="a"> Всегда</label><label><input type="radio" name="q10" value="b"> Когда понятно, где и зачем убрать плотность</label><label><input type="radio" name="q10" value="c"> Вместо прямых ножниц</label></fieldset>
+          <button type="submit" class="btn btn-primary">Проверить результат</button></form><div id="quizResult" class="quiz-result"></div></article>
       </div>
     </section>
   </main>
-
   <footer><span>BARBER ACADEMY</span><p>Блок 01 · Введение в профессию</p></footer>
-  <script src="app.js"></script>
+  <script src="app-v2.js"></script>
 </body>
 </html>
